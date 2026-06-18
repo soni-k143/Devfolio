@@ -9,13 +9,13 @@ export default function Hero() {
 
 {/*       // Available badge — only shows if info.available is true */}
       {info.available && (
-        <span className="inline-block bg-indigo-50 text-indigo-600 text-sm px-4 py-1 rounded-full mb-6">
+        <span className="inline-block bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 text-sm px-4 py-1 rounded-full mb-6">
           👋 Available for remote work
         </span>
       )}
 
 {/*       // Heading */}
-      <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-4">
+      <h1 className="text-5xl font-bold text-gray-900 dark:text-gray-100 leading-tight mb-4">
         Hi, I'm {info.name}<br />
         <span className="text-indigo-600">{info.title}</span>
       </h1>
